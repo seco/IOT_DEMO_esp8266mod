@@ -7,8 +7,8 @@
 MDNSResponder mdns;
 String webPage; 
 ESP8266WebServer server(80);
-const char* ssid     = "Cafe Moc 2";      
-const char* password = "987654321@"; 
+const char* ssid     = "Bao";      
+const char* password = "0907777905"; 
 void setup() {
  pinMode(LED_BUILTIN, OUTPUT);
   webPage += "<h1>ESP8266</h1><p>Socket <a href=\"on\"><button>ON</button></a>&nbsp;<a href=\"off\"><button>OFF</button></a></p>";
