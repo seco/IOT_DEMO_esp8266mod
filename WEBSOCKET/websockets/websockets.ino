@@ -81,7 +81,7 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
       Serial.printf("[%u] Disconnected!\r\n", num);
       break;
     case WStype_CONNECTED:
-      {
+    {
         IPAddress ip = webSocket.remoteIP(num);
         Serial.printf("[%u] Connected from %d.%d.%d.%d url: %s\r\n", num, ip[0], ip[1], ip[2], ip[3], payload);
         // Send the current LED status
@@ -95,7 +95,6 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
       break;
     case WStype_TEXT:
       Serial.printf("[%u] get Text: %s\r\n", num, payload);
-
       if (strcmp(LEDON, (const char *)payload) == 0) {
         writeLED(true);
       }
