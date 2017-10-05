@@ -1,0 +1,6 @@
+﻿WiFi, chế độ Station, HTTP Client, chế độ Access Point, HTTP Server
+Làm ứng dụng theo dõi nhiệt độ, độ ẩm qua Web
+Cấu hình kết nối WiFi cho thiết bị, smartconfig, WPS, WiFiManager
+Giao thức MQTT, xây dựng 1 broker đơn giản với NodeJS
+Websocket, điều khiển thiết bị sử dụng Websocket
+Cập nhật Firmware từ xa & tổng kết khóa học
