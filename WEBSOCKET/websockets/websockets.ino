@@ -9,8 +9,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-static const char ssid[] = "Bao";
-static const char password[] = "0907777905";
+static const char ssid[] = "BLOOM";
+static const char password[] = "11111111";
 MDNSResponder mdns;
 
 static void writeLED(bool);
